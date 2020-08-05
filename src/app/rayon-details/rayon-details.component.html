@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="shop-default shop-cards shop-tech">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block product no-border z-depth-2-top z-depth-2--hover">
+                    <div class="block-image">
+                        <a href="#">
+                            <img class="img-fluid" style="width: 100%;" [src]="rayon.img" [alt]="rayon.name" />
+                        </a>
+                    </div>
+    
+                    <div class="block-body text-center">
+                        <h3 class="heading heading-5 strong-600 text-capitalize">
+                            <a href="#">
+                                {{rayon.name}}
+                            </a>
+                        </h3>
+                        <p class="product-description" style="color: crimson;">
+                            {{rayon.description}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row">
+            <button class="btn btn-success">
+                Editer rayon
+            </button>
+        </div>
+    </div>
+
